@@ -144,11 +144,11 @@ function add_score(who,score){
 }
 
 function max_score(score){
-	if ( leopard == score ) setTimeout(function(){window.location.href='https://eatssoyaoshou.000webhostapp.com/result_leopard.html' ;},1500);
-	else if( fish == score ) setTimeout(function(){window.location.href='https://eatssoyaoshou.000webhostapp.com/result_fish.html' ;},1500);
-	else if( mouse == score ) setTimeout(function(){window.location.href='https://eatssoyaoshou.000webhostapp.com/result_mouse.html' ;},1500);
-	else if( rabbit == score ) setTimeout(function(){window.location.href='https://eatssoyaoshou.000webhostapp.com/result_rabbit.html' ;},1500);
-	else if( sheep == score ) setTimeout(function(){window.location.href='https://eatssoyaoshou.000webhostapp.com/result_sheep.html' ;},1500);
+	if ( leopard == score ) setTimeout(function(){window.location.href='https://snapcodexyz.github.io/result_leopard.html' ;},1500);
+	else if( fish == score ) setTimeout(function(){window.location.href='https://snapcodexyz.github.io/result_fish.html' ;},1500);
+	else if( mouse == score ) setTimeout(function(){window.location.href='https://snapcodexyz.github.io/result_mouse.html' ;},1500);
+	else if( rabbit == score ) setTimeout(function(){window.location.href='https://snapcodexyz.github.io/result_rabbit.html' ;},1500);
+	else if( sheep == score ) setTimeout(function(){window.location.href='https://snapcodexyz.github.io/result_sheep.html' ;},1500);
 }
 
 function panel_fadeOut(){
