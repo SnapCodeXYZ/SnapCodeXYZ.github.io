@@ -1,7 +1,7 @@
 
-var fbhtml_url="https://eatssoyaoshou.000webhostapp.com/index.html";
+var fbhtml_url="https://snapcodexyz.github.io/index.html";
 
-setTimeout(function(){run()},1000);  // °õ¦æfunction
+setTimeout(function(){run()},1000);  // Â°ÃµÂ¦Ã¦function
 
 function run(){
 	img_move1();
