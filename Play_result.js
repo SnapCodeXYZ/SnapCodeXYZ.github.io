@@ -1,6 +1,6 @@
 
 var fbhtml_url="https://snapcodexyz.github.io/index.html";
-
+var play_again = "https://snapcodexyz.github.io/game.html";
 setTimeout(function(){run()},1000);  // °õ¦æfunction
 
 function run(){
