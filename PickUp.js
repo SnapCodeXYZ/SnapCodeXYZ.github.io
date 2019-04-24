@@ -80,10 +80,10 @@ $('.button1 ,.button2' ).on('click', function(){
 		else if ( question_num == 7 ){
 			setTimeout(function(){q7_item()},100);
 			setTimeout(function(){q8_img_move1()},2000);
-			setTimeout(function(){question8()},9100);
+			setTimeout(function(){question8()},7100);
 		}
 		else if ( question_num == 8 ){
-			setTimeout(function(){max_score(Math.max(leopard, fish, mouse, rabbit, sheep))},500);
+			setTimeout(function(){max_score(Math.max(leopard, fish, mouse, rabbit, sheep))},250);
 		}
 		
 		setTimeout(function() {
