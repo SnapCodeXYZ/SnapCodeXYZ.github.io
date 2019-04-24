@@ -1,0 +1,628 @@
+<!DOCTYPE html> 
+<html>
+
+
+<head>
+
+
+
+<style>
+
+
+.panel1,.panel2,.panel3,.panel4,.panel5,.panel6,.panel7,.panel8,.panel9{
+  position: absolute;
+  width: 65%;  
+  height:1000px;
+  top: 6%;
+  left: 17%;
+
+  z-index:19;
+  
+}
+
+
+
+
+.text{
+  position: relative;
+  width: 520px; 
+  height: 340px; 
+}
+
+
+.button1 {
+    position: relative;
+    width: 87%; 
+	height: 23%;
+	margin:2% ;
+   
+}
+
+.button2 {
+    position: relative;
+    width: 38%;
+	height: 18%;	
+	margin:4% ;
+   
+}
+
+
+.img{
+  opacity:0.6;
+  background:rgba(165,165,255,0.6);
+  border: 2px solid hsla(0,0%,10%,0.3);
+  z-index: 5;
+  value:10;
+  
+}
+
+
+
+body {
+	margin:0px;
+}
+
+
+.background1{
+  position: absolute;
+  width: 100%; 
+  height: 100%; 
+  background:rgba(250,193,238,1.0); 
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0; 
+  overflow:hidden;
+  z-index:0;
+  max-width:30cm;
+  margin: auto;  
+}
+
+.Q1_1{
+	position:absolute;
+    width:100%;
+    height:20%;
+	top: 130%;
+	z-index:12;
+
+}
+
+.Q1_2{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 0%;
+	z-index:10;
+
+}
+
+.Q1_3{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 0%;
+	z-index:7;
+
+}
+
+.Q1_4{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 80%;
+	z-index:10;
+}
+.Q1_5{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 0%;
+	z-index:9;
+
+}
+.Q1_6{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 60%;
+	z-index:9;	
+
+}
+.Q1_7{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 0%;
+	z-index:8;
+}
+.Q1_8{
+	position:absolute;
+    width:100%;
+	top: -107%;
+	left: 0%;
+	z-index:5;
+}
+
+.Q3_1{
+	position:absolute;
+    width:100%;
+	top: -120%;
+	left: -3%;
+	z-index:10;
+}
+.Q3_2{
+	position:absolute;
+    width:100%;
+	top: -120%;
+	left: 50%;
+	z-index:10;
+}
+.Q3_3{
+	position:absolute;
+    width:100%;
+	top: -100%;
+	left: 35%;
+	z-index:10;
+}
+.Q3_4{
+	position:absolute;
+    width:110%;
+	height:110%;
+	top: 0%;
+	left: 0%;
+	z-index:14;
+	display:none;
+	filter: alpha(opacity = 70);
+	opacity:0.7;
+}
+.Q4_1{
+	position:absolute;
+    width:100%;
+	top: 45%;
+	left: 50%;
+	z-index:12;
+	display:none;
+}
+.Q4_2{
+	position:absolute;
+    width:100%;
+	height:110%;
+	top: 0%;
+	left: 0%;
+	z-index:14;
+	display:none;
+	filter: alpha(opacity = 70);
+	opacity:0.7;
+}
+.Q5_1{
+	position:absolute;
+    width:100%;
+	top: -150%;
+	left: 0%;
+	z-index:10;
+}
+.Q5_2{
+	position:absolute;
+    width:100%;
+	top: 130%;
+	left: -50%;
+	z-index:13;
+}
+.Q5_3{
+	position:absolute;
+    width:100%;
+	top: 130%;
+	left: 108%;
+	z-index:13;
+}
+.Q6_1{
+	position:absolute;
+    width:100%;
+	top: -150%;
+	left: 0%;
+	z-index:10;
+}
+.Q6_2{
+	position:absolute;
+    width:40%;
+	top: 110%;
+	left: 150%;
+	z-index:20;
+}
+.Q7_1{
+	position:absolute;
+    width:100%;
+	top: -150%;
+	left: 0%;
+	z-index:10;
+}
+.Q8_1{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: 0%;
+	z-index:16;
+	display:none;
+}
+.Q8_1{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: 0%;
+	z-index:14;
+	display:none;
+}
+.Q8_2_1{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: -130%;
+	z-index:16;
+}
+.Q8_2_2{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: 42%;
+	z-index:16;
+	top:-5%;
+	display:none;
+}
+.Q8_2_3{
+	position:absolute;
+    width:100%;
+	height:100%;
+	top:62%;
+	left: 150%;
+	z-index:18;
+}
+.Q8_2_4{
+	position:absolute;
+    width:100%;
+	height:100%;
+	top:28%;
+	left: -130%;
+	z-index:18;
+}
+.Q8_3{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: 130%;
+	top:22%;
+	z-index:15;
+}
+.Q8_4{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: 0%;
+	top:130%;
+	z-index:17;
+}
+.Q8_5{
+	position:absolute;
+    width:100%;
+	height:100%;
+	left: -130%;
+	top:40%;
+	z-index:18;
+}
+
+.Q5_0,.Q6_0,.Q7_0{
+  position: absolute;
+  width:30%;
+  height:30%;
+  z-index:13;
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0; 
+  margin: auto;
+  display:none;
+}
+
+
+
+.spacebox{
+	position: relative;
+	width:30%;
+	height: 40%; 
+}
+.bigspacebox{
+	position: relative;
+	width:30%;
+	height: 50%; 
+}
+.question_background{
+	position:absolute;
+    width:100%;
+	height: 100%; 
+	top: 0%;
+	left: 0%;
+	z-index:0;	
+}
+.question_button{
+	position:relative;
+	height: 50%; 
+	top: 0%;
+	left: 5%;
+	z-index:0;	
+	
+}
+
+.top_bckgroup
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 15000;
+	background-color:black;
+
+	
+}
+	
+.loading
+{
+	position: fixed;		
+	width: 30%;
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0; 
+	margin: auto; 
+	z-index: 1;
+
+}
+
+.music_open
+{
+	position: absolute;		
+	width: 100px;
+	height:100px;	
+	top: 10px;  
+	left: 20px;  
+	z-index: 100;
+	display:none;
+}
+
+.music_mute
+{
+	position: absolute;		
+	width: 80px;
+	height:80px;
+	top: 20px;  
+	left: 20px;  
+	z-index: 100;
+}
+.click_pic{
+	position: absolute;		
+	width: 200px;
+	height:200px;
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0; 
+	margin: auto ; 
+	z-index: 100;
+	display:none;
+}
+
+
+</style>
+</head>
+
+<div class="top_bckgroup" id="top">
+	<img class="loading" id="loading_pic" src="https://drive.google.com/uc?export=download&id=1oBHuvoqIj7nP5fuGmksd3SfzuI6B6NbT">
+</div>
+
+
+
+<body onload="loaded()">
+
+
+<div class="background1" >
+<audio src="BGM.mp3" id="audio_BGM" loop="true" ></audio>
+<audio src="sound1.mp3" id="audio_sound1" ></audio>
+<audio src="sound2.mp3" id="audio_sound2" ></audio>
+
+<div class="music_open"><img src="https://drive.google.com/uc?export=download&id=17uKvL7_U-a1F8uxO9UM_eqx2QKPxb9ug"width="100%"></div>
+<div class="music_mute"><img src="https://drive.google.com/uc?export=download&id=1ph4HdQD5smc3wrWpe9zaVSc3JAiGM9eF"width="100%"></div>
+<div class="click_pic"><img src="https://drive.google.com/uc?export=download&id=1m9SYb1BErm3TJPd2lmCLneMNq_0wqrOL"width="100%"></div>
+<div class="Q1_1"><img src="https://drive.google.com/uc?export=download&id=18whuS3Zno8gSt96jPBnABeKxmM_Utp5L"width="95%"></div>
+<div class="Q1_2"><img src="https://drive.google.com/uc?export=download&id=1vOCxmUnDtXGaX8eDNOzMz8SHmfj9fUQe"width="24%"></div>
+<div class="Q1_3"><img src="https://drive.google.com/uc?export=download&id=1azOHm4XgWmJ106sbV531xfiJCGlRW26i"width="80%"></div>
+<div class="Q1_4"><img src="https://drive.google.com/uc?export=download&id=1yDMraFjg4xGn4Jh4uHQuW4w0WjsX22LL"width="23%"></div>
+<div class="Q1_5"><img src="https://drive.google.com/uc?export=download&id=19ast_J220v5LREq3-RJeyXFp1Nq-pK_P"width="52%"></div>
+<div class="Q1_6"><img src="https://drive.google.com/uc?export=download&id=1i2wUIubye-iinABIBjAtBedA0QF8WvqC"width="48%"></div>
+<div class="Q1_7"><img src="https://drive.google.com/uc?export=download&id=1xvi7fbdQtYGoTrvKgodDYtE0yQJ7FjzC"></div>
+<div class="Q1_8"><img src="https://drive.google.com/uc?export=download&id=1fld3eUotTJol0tMOJxecnvpFcxyUVwrc"width="100%"></div>
+<div class="Q3_1"><img src="https://drive.google.com/uc?export=download&id=18eipnwkaANJ_bekULFf2iyBG6lxXknRg"width="48%"></div>
+<div class="Q3_2"><img src="https://drive.google.com/uc?export=download&id=1VOr7jFfq20doHyuHDbQN4oWTObhJP_CQ"width="70%"></div>
+<div class="Q3_3"><img src="https://drive.google.com/uc?export=download&id=1T5-8G_n06StfSpKr7nLW2JUqknWyMICH"width="30%"></div>
+<div class="Q3_4"><img src="https://drive.google.com/uc?export=download&id=1mdk4GK9eeuob2-vzgMdSqEdk1kuZ2XeA"width="100%"height="100%"></div>
+<div class="Q4_1"><img src="https://drive.google.com/uc?export=download&id=18qZcDi5aG-wF-BU_y0q_MoldP9iXsRjl"></div>
+<div class="Q4_2"><img src="https://drive.google.com/uc?export=download&id=1HSxmwWZwIgD2ohZ4keDrQxBPzItQ75Nw"width="100%"height="100%"></div>
+<div class="Q5_1"><img src="https://drive.google.com/uc?export=download&id=1shcR1Sh9UXHODjZzotBi3RFJxRdUVuJz"></div>
+<div class="Q5_2"><img src="https://drive.google.com/uc?export=download&id=17NMUWZ4ZNTfc_aUUy5eBnzpex7SuWEKe"width="70%"></div>
+<div class="Q5_3"><img src="https://drive.google.com/uc?export=download&id=1oOXcIuuUft7wte809-dx50NrdFjLjdBa"width="42%"></div>
+<div class="Q6_1"><img src="https://drive.google.com/uc?export=download&id=1YJGQpWvolx1KNm_dvapMKQQBWlHmSIP4"width="100%"></div>
+<div class="Q6_2"><img src="https://drive.google.com/uc?export=download&id=1fbTJ2-hcK1sqGtV--SCmgJjObn8Nb5cP"width="100%"></div>
+<div class="Q7_1"><img src="https://drive.google.com/uc?export=download&id=1jDvnkf10Q040m2CLU1SFUudS3fL-Wpv7"></div>
+<div class="Q8_1"><img src="https://drive.google.com/uc?export=download&id=1kivq8eKqNAmx3Vx288aKfdC-YUkGGStQ"width="100%"height="100%"></div>
+<div class="Q8_2_1"><img src="https://drive.google.com/uc?export=download&id=1rZBhHFpKTXRVD6lw997xK47YRmzGdk19"width="55%" height="100%"></div>
+<div class="Q8_2_2"><img src="https://drive.google.com/uc?export=download&id=1gboCSXD84MaJUxcLrGgNJEUczSm4rvIR"width="60%"height="60%"></div>
+<div class="Q8_2_3"><img src="https://drive.google.com/uc?export=download&id=1sXbNJdbFqbMnRBU7c60ftohpD7_tx9RQ"width="100%"></div>
+<div class="Q8_2_4"><img src="https://drive.google.com/uc?export=download&id=1FLUAboW-4Pw__prrNXCJzjpBu6VEtA0b"width="40%"></div>
+<div class="Q8_3"><img src="https://drive.google.com/uc?export=download&id=10P90PYoHxuj2dnj677wH_sSigNYqd3IR"width="80%"height="80%"></div>
+<div class="Q8_4"><img src="https://drive.google.com/uc?export=download&id=17HAsnJFH1RD4pdtBdz4m2eXpkHPzjGUd"width="100%"height="55%"></div>
+<div class="Q8_5"><img src="https://drive.google.com/uc?export=download&id=1-FrZazE3qNYx3l4QaUyMcB6mb0I3Ev_E"width="96%"></div>
+<div class="Q5_0"><img src="https://drive.google.com/uc?export=download&id=1zbA5U5TvpA3XbdOEBnb08UHIJqkhWl1e"></div>
+<div class="Q6_0"><img src="https://drive.google.com/uc?export=download&id=1We3LAfPuDGzNslskwz6CEMFPBmk8hnH1"></div>
+<div class="Q7_0"><img src="https://drive.google.com/uc?export=download&id=12dv6I6oL733z6AZjC9-2OLEbrBWryc0A"></div>
+
+<div class="panel1"  style="line-height:20px;display:none;" >
+	
+  <div class="spacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1iqaSwxm4OZmULl2irN1C9e8eciSLBw-7">
+
+  <div class="question_button" style="display:inline;">
+
+    <img class="button2" src="https://drive.google.com/uc?export=download&id=1SLY6wWrgE2W0HUhOfLJ9zzkKhnIyGToG" 
+	style="border-radius:10px;" onClick="add_score(2,8),add_score(4,9)"   />
+
+
+    <img class="button2" src="https://drive.google.com/uc?export=download&id=1OMgVWXJ-nUjP-t5yazE5Xz9biW1czBml" 
+	style="border-radius:10px" onClick="add_score(3,9)"  />
+
+  
+
+    <img class="button2" src="https://drive.google.com/uc?export=download&id=17U-6H7bBSZbbhyLfqegKmlA1ggd1zSoT" 
+	style="border-radius:10px"onClick="add_score(1,8)"  />
+
+
+
+    <img class="button2" src="https://drive.google.com/uc?export=download&id=1-YMcWYyBhzpE19Z0uL1jZXtB2OITGbSn" 
+	style="border-radius:10px" onClick="add_score(5,10)"  />
+  </div>
+	
+</div>
+
+<!---------------------------------------------------------------------------->
+<div class="panel2"  style="line-height:20px;display:none;">
+  <div class="spacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1QQXs5LzMwmEubeAVBIcmlY-OX_Y0-pIe">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1On_UIdrjrC86Dti-BQj-yWQ-VWL2IHYK" 
+	style="border-radius:10px;" onClick="add_score(1,10)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1nqGkgumXCv3LyLf2oz0FKYiSNzUrF4mt" 
+	style="border-radius:10px" onClick="add_score(3,8)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1I-1duQ94YtSGI6X8JuOznMjwdTj8Q_Zi" 
+	style="border-radius:10px"  onClick="add_score(1,8)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1dV3wLiDXzx5gEcCKe4Q6zXG-42J-O63T" 
+	style="border-radius:10px"  onClick="add_score(2,7),add_score(4,6)" />
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->                    
+<div class="panel3"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1CWSjTbbuYjltFB0FNqQsSsffAAXJeCz3">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=18PPnbhEjMPrAfyNMfurRJKvPZXsBFIbH" 
+	style="border-radius:10px;" onClick="add_score(3,7)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=15vVf1ySnQ8VZ63xlG7LyJj46BUrGhNfC" 
+	style="border-radius:10px" onClick="add_score(2,9)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=12J96bx2pYnUgai4x9bqxpyfSEud7Wo4h" 
+	style="border-radius:10px"  onClick="add_score(5,10)" />
+
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->
+<div class="panel4"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1kwHuOsgxH5yHsF-3iJSO-FiNh8xMLUwK">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1OEwjxjzWTog1qq_SXvbTJrahW5mMHV1U" 
+	style="border-radius:10px;" onClick="add_score(2,7)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1yIADGnvZ4o5FbvN_mUzYlztzOgQXa49u" 
+	style="border-radius:10px" onClick="add_score(1,7)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1Bo7FqVm_50926SFI9f-ckcfqxeB3P_At" 
+	style="border-radius:10px" onClick="add_score(3,9)" />
+
+  </div>
+</div>
+
+
+<!---------------------------------------------------------------------------->
+<div class="panel5"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1k5lVZRjrU2u3X1sl7KuPbNTa9V_A5XD5">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1bQwr81o9A-oULCyKqhefjEXgilt-akIp" 
+	style="border-radius:10px;" onClick="add_score(5,10)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1PSOloK3HgI88ziQsEfr3lEqQiOxv_pnr" 
+	style="border-radius:10px" onClick="add_score(2,9)" />
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1YIKzbaOq9f2xY1B3AiSRF8lS51vZLmxC" 
+	style="border-radius:10px" onClick="add_score(4,10)"/>
+
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->
+<div class="panel6"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1mAZq2qjtK0yiU41Dz_7WnvhBRnVnIVyy">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1-mysj7uDfQeHmGbH1Aa5SOsjtQcjQD6I" 
+	style="border-radius:10px;" onClick="add_score(2,9)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1YinL1q_2hoWtnsd8k78bfvQzfw_ph2vc" 
+	style="border-radius:10px" onClick="add_score(5,9)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1fsvy7nJNjelhCAJzDxxT-y2gYAFVePBk" 
+	style="border-radius:10px" onClick="add_score(3,8)" />
+
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->
+<div class="panel7"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1THbZobLm7ZwwIlhTKN9pvthUzNtORpV-">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1S-U9qXo2R9qqHdF6LFqZlqRLQ7aEadnY" 
+	style="border-radius:10px;" onClick="add_score(4,10)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1zdrOqC8ohJy8_fYVB2486mvOG0TtX8Lr" 
+	style="border-radius:10px" onClick="add_score(2,9)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1M_HBJ8P1HoLSmIjAu5PhGdSV7i__Rode" 
+	style="border-radius:10px" onClick="add_score(5,8),add_score(4,2)"/>
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->
+<div class="panel8"  style="line-height:20px;display:none;">
+  <div class="bigspacebox" style="margin:auto;"></div>
+  <img class = "question_background" src="https://drive.google.com/uc?export=download&id=1DHzBmNvPreCHIlMK8mw9gNNpleD9ger9">
+  <div class="question_button" style="margin:auto;">
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1qaH58fSIVeK6WaP54-OWJaYxxaEgEVI5" 
+	style="border-radius:10px;" onClick="add_score(4,10)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1YylW8W_X1Kh9ti6fvYrO2uhBZJgFosJM" 
+	style="border-radius:10px" onClick="add_score(3,8)"/>
+
+    <img class="button1" src="https://drive.google.com/uc?export=download&id=1ZskMdnRvy4OVhGISpiFW3DR2gOT2pFwI" 
+	style="border-radius:10px" onClick="add_score(1,8)"/>
+
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------->
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="PickUp.js"></script>
+</body>
+
+</html>
